@@ -7,5 +7,5 @@ urlpatterns = [
     path('login/', LoginView.as_view(), name='login'),
     path('logout/', LogoutView.as_view(), name='logout'),
     path('tasks1/', TaskView.as_view(), name='tasks-list'),
-    path('tasks/<int:pk>/', TaskView.as_view(), name='task-detail'),
+    path('tasks1/<int:pk>/', TaskView.as_view(), name='task-detail'),
 ]
